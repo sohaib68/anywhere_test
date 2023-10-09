@@ -1,0 +1,25 @@
+{
+    "version": "1.2.0",
+    "configurations": [
+      {
+        "name": "Simpsons",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_simpsons.dart",
+        "args": [
+          "--flavor",
+          "Simpsons"
+        ]
+      },
+      {
+        "name": "TheWire",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_thewire.dart",
+        "args": [
+          "--flavor",
+          "TheWire"
+        ]
+      }
+    ]
+  }
