@@ -37,7 +37,7 @@ class HomePageCubit extends Cubit<HomePageState> {
     return Topics(
         data: topics.data.where((topic) {
       String searchText = searchTerm.toLowerCase();
-      String name = getName(topic);
+      String name = getName(topic).toLowerCase();
       bool match = name.contains(RegExp(searchText));
       return match;
     }).toList());
